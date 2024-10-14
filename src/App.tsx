@@ -1,8 +1,10 @@
 // Component Imports
+import MainCard from './components/MainCard';
 
 
 // CSS Imports
 import './App.css'
+import './components/maincard.css'
 
 //Full Scoped variables
 
@@ -11,9 +13,13 @@ import './App.css'
 function App() {
 
 
-  return (
+
+    return (
     <>
-        <p>Coming Soon!</p>
+        <MainCard>
+
+        </MainCard>
+
 
     </>
   )

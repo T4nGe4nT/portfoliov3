@@ -22,10 +22,10 @@ function FootCard() {
     return (
         <>
             <div className="footCard">
-                <a href={fb}><img src={fbImage} alt="Facebook Icon" /></a>
-                <a href={ig}><img src={igImage} alt="Instagram Icon" /></a>
-                <a href={gh}><img src={ghImage} alt="Git Hub Icon" /></a>
-                <a href={li}><img src={linkedInImage} alt="Linked In Image"/></a>
+                <a href={fb} target="_blank" rel="noopener noreferrer"><img src={fbImage} alt="Facebook Icon" /></a>
+                <a href={ig} target="_blank" rel="noopener noreferrer"><img src={igImage} alt="Instagram Icon" /></a>
+                <a href={gh} target="_blank" rel="noopener noreferrer"><img src={ghImage} alt="Git Hub Icon" /></a>
+                <a href={li} target="_blank" rel="noopener noreferrer"><img src={linkedInImage} alt="Linked In Image"/></a>
             </div>
         </>
     )

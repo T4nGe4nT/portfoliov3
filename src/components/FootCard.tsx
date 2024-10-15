@@ -6,10 +6,10 @@ import instaGram from '../assets/icons/instagram.svg'
 import linkedIn from '../assets/icons/linkedin.svg'
 
 // Links as variables
-const fb = "https://facebook.com"
-const ig = "https://instagram.com"
-const gh = "https://github.com"
-const li = "https://linkedin.com"
+const fb = "https://www.facebook.com/nichholcomb/"
+const ig = "https://www.instagram.com/nicklewithapickle/"
+const gh = "https://github.com/T4nGe4nT"
+const li = "www.linkedin.com/in/nich-holcomb-53b986318"
 
 
 // Image declarations

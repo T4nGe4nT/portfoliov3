@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio project built with **React**, **Shadcn**, **TypeScript**, and **Tailwind CSS**. This project showcases some of my work and interests, featuring a clean and responsive design.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Introduction
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+This portfolio project is designed to present my work, projects, and interests in a modern and interactive way. The project includes a carousel of projects, a description of my skills and hobbies, and external links to my social profiles like GitHub and LinkedIn.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Technologies Used
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **React**: JavaScript library for building user interfaces.
+- **Shadcn**: UI component library for consistent and customizable designs.
+- **TypeScript**: A typed superset of JavaScript to add type safety.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Embla Carousel**: (or whichever you choose) for managing the project slider.
+
+## Features
+
+- **Responsive Design**: Works seamlessly on desktops, tablets, and mobile devices.
+- **Project Carousel**: Users can navigate through projects with corresponding descriptions.
+- **Footer Links**: External links that open in new tabs to LinkedIn, GitHub, and more.
+- **Simple Navigation**: The portfolio is easy to navigate, ensuring users can quickly find the relevant sections.
+
+## Installation
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/T4nGe4nT/portfoliov3.git

@@ -42,3 +42,19 @@
     margin-left: 10px;
 }
 
+.code-icon-container {
+    text-align: center;
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjusts spacing between icons */
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.skills-icons i {
+    font-size: 3rem; /* Adjust this size as needed */
+    line-height: 1;
+}

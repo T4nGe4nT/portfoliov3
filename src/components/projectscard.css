@@ -2,6 +2,7 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
+    object-fit: contain;
 }
 
 .carousel {
@@ -12,6 +13,15 @@
     margin-bottom: 15px;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px; /* Adjust this to control container width */
+    height: 400px; /* Adjust this to control container height */
 }
 
 .project-description {
@@ -31,3 +41,4 @@
 .car2-button {
     margin-left: 10px;
 }
+

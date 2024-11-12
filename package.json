@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "nichholcomb.com",
+  "homepage": "https://t4nge4nt.github.io/portfoliov3/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
